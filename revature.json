@@ -1,0 +1,15 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/DropATableTest.java",
+      "testCases": [
+        {
+          "methodName": "dropTableTest",
+          "label": "Verify the song table is dropped successfully",
+          "description": "Runs problem1() to drop the song table. Then attempts an INSERT into the table; if the INSERT succeeds, the table was not dropped and the test fails. Test passes only when a SQLException is thrown due to the missing table."
+        }
+      ]
+    }
+  ]
+}
